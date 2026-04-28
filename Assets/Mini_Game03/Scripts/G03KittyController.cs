@@ -4,13 +4,13 @@ public class G03KittyController:MonoBehaviour
 {
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        if (Input.GetKey(KeyCode.LeftArrow))
         {
-            transform.Translate(-3,0,0);
+            transform.Translate(-0.3f,0,0);
         }
-        if (Input.GetKeyDown(KeyCode.RightArrow))
+        if (Input.GetKey(KeyCode.RightArrow))
         {
-            transform.Translate(3,0,0);
+            transform.Translate(0.3f,0,0);
         }
     }
 }
