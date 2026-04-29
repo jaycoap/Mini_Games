@@ -3,9 +3,11 @@ using UnityEngine;
 public class G03ArrowController : MonoBehaviour
 {
     GameObject player;
+
+
     void Start()
     {
-           player = GameObject.Find("player_0");
+        player = GameObject.Find("player_0");
     }
 
     void Update()
@@ -26,6 +28,8 @@ public class G03ArrowController : MonoBehaviour
 
         if (d < r1 + r2)
         {
+            GameObject gameDirector = GameObject.Find("GameDirector");
+            gameDirector.GetComponent<G03GameDirector>().DecreaseHp();
             Destroy(gameObject);
         }
 

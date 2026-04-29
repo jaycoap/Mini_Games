@@ -11,7 +11,6 @@ public class G03ArrowGenerator : MonoBehaviour
     void Update()
     {
         delta += Time.deltaTime;
-        Debug.Log(delta);
         if(delta > span)
         {
             delta = 0;
