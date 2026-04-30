@@ -7,7 +7,7 @@ public class G03ArrowController : MonoBehaviour
 
     void Start()
     {
-        player = GameObject.Find("player_0");
+        player = GameObject.Find("Doro");
     }
 
     void Update()

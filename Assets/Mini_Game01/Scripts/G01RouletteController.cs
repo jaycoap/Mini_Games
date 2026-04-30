@@ -81,4 +81,9 @@ public class G01RouletteController : MonoBehaviour
             videoPlayer.Stop();
         }
     }
+
+    public void ReturnLobby01()
+    {
+        LB_SceneController.LoadLobby();
+    }
 }

@@ -12,4 +12,8 @@ public class G03GameDirector : MonoBehaviour
     {
         hp_Gauge.GetComponent<Image>().fillAmount -= 0.1f;
     }
+    public void ReturnLobby03()
+    {
+        LB_SceneController.LoadLobby();
+    }
 }

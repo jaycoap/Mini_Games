@@ -27,4 +27,8 @@ public class G02GameDirector : MonoBehaviour
             distance.GetComponent<TextMeshProUGUI>().text = "GameOver";
         }
     }
+    public void ReturnLobby02()
+    {
+        LB_SceneController.LoadLobby();
+    }
 }
