@@ -76,7 +76,7 @@ public class G04PlayerController : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         Debug.Log("골");
-        SceneManager.LoadScene("GameScene04b");
+        LB_SceneController.LoadLobby();
     }
 
     public void ReturnLobby04()
