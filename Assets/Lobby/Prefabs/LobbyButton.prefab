@@ -120,9 +120,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 11500000, guid: 3a0723a366d1c964cabe286d0acfa95c, type: 3}
         m_TargetAssemblyTypeName: LB_SceneController, Assembly-CSharp
-        m_MethodName: ChangeSceneLP
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

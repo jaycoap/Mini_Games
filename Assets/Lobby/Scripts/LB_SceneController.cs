@@ -19,6 +19,14 @@ public class LB_SceneController : MonoBehaviour
     {
         SceneManager.LoadScene("GameScene04");
     }
+    public void ChangeSceneBamsongi()
+    {
+        SceneManager.LoadScene("GameScene05");
+    }
+    public void ChangeSceneApple()
+    {
+        SceneManager.LoadScene("GameScene06");
+    }
 
     public static void LoadLobby()
     {

@@ -34,8 +34,8 @@ public class G06ItemGenerator : MonoBehaviour
 
     public void SetParameter(float span, float speed, int ratio)
     {
-        span = span;
-        ratio = ratio;
-        speed = speed;
+        this.span = span;
+        this.ratio = ratio;
+        this.speed = speed;
     }
 }

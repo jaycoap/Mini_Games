@@ -712,7 +712,7 @@ PrefabInstance:
     - target: {fileID: 2463706958902494848, guid: 3bc65a5ec8295c04881da902bd4a23e0, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 7294753076101373936, guid: 403d8fa43481c714f865f588a3c99a18, type: 3}
+      objectReference: {fileID: -7669433421800344910, guid: 585508da922106349958655bb5182a12, type: 3}
     - target: {fileID: 4624189002687135357, guid: 3bc65a5ec8295c04881da902bd4a23e0, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -739,11 +739,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4624189002687135357, guid: 3bc65a5ec8295c04881da902bd4a23e0, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 454.4081
+      value: 470.4535
       objectReference: {fileID: 0}
     - target: {fileID: 4624189002687135357, guid: 3bc65a5ec8295c04881da902bd4a23e0, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 221.6123
+      value: 229.44
       objectReference: {fileID: 0}
     - target: {fileID: 4624189002687135357, guid: 3bc65a5ec8295c04881da902bd4a23e0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -795,15 +795,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4883321877459910788, guid: 3bc65a5ec8295c04881da902bd4a23e0, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4883321877459910788, guid: 3bc65a5ec8295c04881da902bd4a23e0, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 685123527}
+    - target: {fileID: 4883321877459910788, guid: 3bc65a5ec8295c04881da902bd4a23e0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ChangeSceneApple
+      objectReference: {fileID: 0}
+    - target: {fileID: 4883321877459910788, guid: 3bc65a5ec8295c04881da902bd4a23e0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: LB_SceneController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4883321877459910788, guid: 3bc65a5ec8295c04881da902bd4a23e0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 8745704260210628077, guid: 3bc65a5ec8295c04881da902bd4a23e0, type: 3}
       propertyPath: m_Name
-      value: Next2
+      value: Apple
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1133,7 +1145,7 @@ PrefabInstance:
     - target: {fileID: 2463706958902494848, guid: 3bc65a5ec8295c04881da902bd4a23e0, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 406669392607094580, guid: 403d8fa43481c714f865f588a3c99a18, type: 3}
+      objectReference: {fileID: 3380519321568187302, guid: 585508da922106349958655bb5182a12, type: 3}
     - target: {fileID: 4624189002687135357, guid: 3bc65a5ec8295c04881da902bd4a23e0, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1160,11 +1172,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4624189002687135357, guid: 3bc65a5ec8295c04881da902bd4a23e0, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 454.4081
+      value: 474.5448
       objectReference: {fileID: 0}
     - target: {fileID: 4624189002687135357, guid: 3bc65a5ec8295c04881da902bd4a23e0, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 221.6123
+      value: 231.43
       objectReference: {fileID: 0}
     - target: {fileID: 4624189002687135357, guid: 3bc65a5ec8295c04881da902bd4a23e0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1216,15 +1228,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4883321877459910788, guid: 3bc65a5ec8295c04881da902bd4a23e0, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4883321877459910788, guid: 3bc65a5ec8295c04881da902bd4a23e0, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 685123527}
+    - target: {fileID: 4883321877459910788, guid: 3bc65a5ec8295c04881da902bd4a23e0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ChangeSceneBamsongi
+      objectReference: {fileID: 0}
+    - target: {fileID: 4883321877459910788, guid: 3bc65a5ec8295c04881da902bd4a23e0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: LB_SceneController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4883321877459910788, guid: 3bc65a5ec8295c04881da902bd4a23e0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 8745704260210628077, guid: 3bc65a5ec8295c04881da902bd4a23e0, type: 3}
       propertyPath: m_Name
-      value: Next1
+      value: Bamsongi
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
